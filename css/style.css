@@ -235,8 +235,8 @@ span {
 .node-bar{
   width: 75%;
 }
-.express-bar{
-  width: 60%;
+.typescript-bar{
+  width: 80%;
 }
 .services-content {
   display: grid;
