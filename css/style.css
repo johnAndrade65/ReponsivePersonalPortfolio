@@ -221,22 +221,22 @@ span {
   width: 99%;
 }
 .css-bar {
-  width: 90%;
+  width: 98%;
 }
 .js-bar {
-  width: 87%;
+  width: 91%;
 }
 .react-bar {
-  width: 85%;
+  width: 88%;
 }
 .angular-bar{
   width: 79%;
 }
-.node-bar{
-  width: 75%;
+.sass-bar{
+  width: 93%;
 }
-.typescript-bar{
-  width: 80%;
+.screen-bar{
+  width: 97%;
 }
 .services-content {
   display: grid;
