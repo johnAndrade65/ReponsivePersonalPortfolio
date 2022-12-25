@@ -229,14 +229,14 @@ span {
 .react-bar {
   width: 88%;
 }
-.angular-bar{
-  width: 79%;
-}
 .sass-bar{
+  width: 95%;
+}
+.csharp-bar{
   width: 93%;
 }
-.screen-bar{
-  width: 97%;
+.mysql-bar{
+  width: 91%;
 }
 .services-content {
   display: grid;
