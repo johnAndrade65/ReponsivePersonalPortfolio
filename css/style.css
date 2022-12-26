@@ -229,8 +229,8 @@ span {
 .react-bar {
   width: 88%;
 }
-.sass-bar{
-  width: 95%;
+.screen-bar{
+  width: 98%;
 }
 .csharp-bar{
   width: 93%;
@@ -379,15 +379,7 @@ form textarea {
   width: 40px;
   height: 40px;
 }
-.copyright {
-  padding: 20px;
-  background: var(--main-color);
-  text-align: center;
-  color: #fff;
-}
-.copyright a{
-  color: #22cf91;
-}
+
 /* Making Responsive */
 @media (max-width: 991px) {
   header {
