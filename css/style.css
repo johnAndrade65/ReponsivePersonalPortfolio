@@ -218,16 +218,16 @@ span {
   border-radius: 0.5rem;
 }
 .html-bar {
-  width: 99%;
+  width: 100%;
 }
 .css-bar {
   width: 98%;
 }
 .js-bar {
-  width: 91%;
+  width: 95%;
 }
 .react-bar {
-  width: 88%;
+  width: 91%;
 }
 .node-bar{
   width: 90%;
