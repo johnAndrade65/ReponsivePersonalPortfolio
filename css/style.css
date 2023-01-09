@@ -1,4 +1,4 @@
-/* Google Fonts */
+/* GOOGLE FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
@@ -10,6 +10,7 @@
   scroll-padding-top: 2rem;
   font-family: "Poppins", sans-serif;
 }
+/* VARIABLES */
 :root {
   --main-color: #0055c4;
   --bg-color: #fff;
@@ -20,9 +21,13 @@
   --medium-font: 1.8rem;
   --p-font: 0.941rem;
 }
+
+/* SECTIONS */
 section {
   padding: 50px 10%;
 }
+
+/* BODY */
 body.active {
   --text-color: #fff;
   --bg-color: #0f0c27;
@@ -31,10 +36,14 @@ body {
   background: var(--bg-color);
   color: var(--text-color);
 }
+
+/* GENERAL STYLIZATION */
 *::selection {
   color: var(--bg-color);
   background: var(--main-color);
 }
+
+/* ABOUT ME */
 .heading {
   text-align: center;
 }
@@ -46,6 +55,8 @@ body {
   font-size: var(--p-font);
   color: rgb(2, 166, 70);
 }
+
+/* HEADER MENU */
 header {
   position: fixed;
   width: 100%;
@@ -91,6 +102,8 @@ header.shadow {
   font-size: 22px;
   cursor: pointer;
 }
+
+/* HOME */
 .home {
   position: relative;
   width: 100%;
@@ -123,6 +136,8 @@ header.shadow {
   font-weight: 400;
   margin: 0.7rem 0 1rem;
 }
+
+/* LEFT MENU*/
 .social {
   display: flex;
   flex-direction: column;
@@ -145,6 +160,8 @@ header.shadow {
 .btn:hover {
   background: var(--hover);
 }
+
+/* ABOUT */
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -175,6 +192,8 @@ header.shadow {
   font-weight: 400;
   margin-left: 1rem;
 }
+
+/* SKILLS */
 .skills-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -230,10 +249,13 @@ span {
   width: 91%;
 }
 .node-bar{
-  width: 90%;
+  width: 85%;
 }
 .csharp-bar{
   width: 93%;
+}
+.git-bar{
+  width: 98%;
 }
 .mysql-bar{
   width: 91%;
@@ -283,6 +305,8 @@ span {
 .services-box:hover a{
   color: #8b8a8f;
 }
+
+/* PORTFOLIO SECTION*/
 .portfolio-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
@@ -314,6 +338,8 @@ span {
   padding: 0.7rem 1.3rem;
   border-radius: 0.5rem;
 }
+
+/* CONTACT */
 .contact-form {
   display: grid;
   place-items: center;
@@ -356,6 +382,8 @@ form textarea {
 .contact-button:hover {
   background: var(--hover);
 }
+
+/* FOOTER */
 .footer {
   display: grid;
   place-items: center;
@@ -380,7 +408,7 @@ form textarea {
   height: 40px;
 }
 
-/* Making Responsive */
+/* RESPONSIVE */
 @media (max-width: 991px) {
   header {
     padding: 18px 4%;

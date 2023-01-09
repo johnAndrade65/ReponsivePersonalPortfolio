@@ -1,8 +1,10 @@
+    /* VARIBLES */
     let header = document.querySelector('header');
     let menu = document.querySelector('#menu-icon');
     let navbar = document.querySelector('.navbar');
      
 
+    /* MENU */
     window.addEventListener('scroll', () => {
         header.classList.toggle('shadow', window.scrollY > 0);
     });
@@ -13,9 +15,8 @@
         navbar.classList.remove('active');
     }
      
-    //Dark Mode
+    /* DARK MODE */
     let darkmode = document.querySelector('#darkmode');
-    
     
     darkmode.onclick = () => {
         if(darkmode.classList.contains('bx-moon')){
